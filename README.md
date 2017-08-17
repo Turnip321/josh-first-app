@@ -3,7 +3,7 @@
 ## Running App Locally
 
 ```(bash)
-python -m SimpleHTTPServer 8000
+python -m SimpleHTTPServer 8080
 ```
 
 now navigate to [site](http://localhost:8000)

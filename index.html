@@ -1,1 +1,17 @@
+<!-- This is javascript -->
+<script>
+  function add(date) {
+    let p = document.createElement('p');
+    p.innerText = date;
+    let container = document.getElementById('container')
+    container.appendChild(p);
+  }
+</script>
+
+<!-- This is HTML -->
 <h1>The best app ever</h1>
+
+<a href="/page.html">I am a link</a>
+<button onclick="add(new Date())">Add Time</button>
+
+<div id="container"></div>
